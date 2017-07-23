@@ -5,7 +5,7 @@ var index=window.location.href.indexOf("?");
 
 var query=window.location.href.slice(index+3);
 
-var params = { part: "snippet", maxResults: 1, q: query, type: "video", key: "AIzaSyC9ta_5TtJcU3M6m0a5vtytSnpzESFbXRs"};
+var params = { part: "snippet", maxResults: 1, q: query, type: "video", key: "AIzaSyC9ta_5TtJcU3M6m0a5vtytSnpzESFbXRs", videoCategoryId: "10"};
 
 var queryStrings = $.param(params);
 
